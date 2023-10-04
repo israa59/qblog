@@ -4,13 +4,13 @@ from django.http import HttpResponse
 posts =[{
     'author': 'Israa',
     'title' : 'First Post',
-    'date'  : 'Oct 3, 2023',
+    'date_posted'  : 'Oct 3, 2023',
     'content': 'First Try with dummy data'
     },
     {
     'author': 'Rohin',
     'title' : 'Second Post',
-    'date'  : 'Oct 3, 2023',
+    'date_posted'  : 'Oct 3, 2023',
     'content': 'Its good to do Django'
     }
 ]
